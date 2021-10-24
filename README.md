@@ -15,62 +15,62 @@ dari Git. Klik Next untuk melanjutkan instalasi.
 Selanjutnya, pilih lokasi untuk install Git Pada komputer Anda. Pada tutorial ini Saya
 menginstal di lokasi C:\Program Files\Git. Setelah menentukan lokasi instalasi Git,
 klik Next untuk melanjutkan.
-![img]Foto/foto2.png
+![Gambar](Foto/foto2.png)
 
 ### 4. Pilih Komponen Tambahan
 Kemudian pilih komponen tambahan untuk install git. Fungsi komponen untuk memperlancar
 penggunaan Git dan mendukung file dengan kapasitas besar. Sesuaikan komponen yang dipilih
 pada gambar di bawah ini. Jika sudah klik Next untuk lanjut.
-![img]Foto/foto3.png
+![Gambar](Foto/foto3.png)
 
 ### 5. Tentukan Nama Aplikasi Git
 sebenarnya Anda bebas mengganti nama aplikasi Git yang akan tampil pada Start Menu.
 Saya menyarankan gunakan nama Git saja agar mudah saat nencarinya. Oke Next lagi.
-![img]Foto/foto4.png
+![Gambar](Foto/foto4.png)
 
 ### 6. Tentukan File Editor
 Untuk mengedit script melalui Git, Anda memerlukan file editor. Anda bebas menggunakan 
 file editor apa pun untuk dikombinasikan dengan Git. Klik Next apabila sudah menentukan
 file editor yang akan digunakan.
-![img]Foto/foto5.png
+![Gambar](Foto/foto5.png)
 
 ### 7. Atur Patch Environment
 Selanjutnya adalah pengaturan Patch Evirontment. Patch Evirontment berfungsi untuk
 mengeksekusi perintah pada Git. Pilih - Git from the command line and also from 3rd
 party software - agar saat menjalankan perintah dapat dikenali di Comman Prompt (CMD)
 pada windows.
-![img]Foto/foto6.png
+![Gambar](Foto/foto6.png)
 
 ### 8. Pilih Aplikasi SSH
 Pada tutorial ini Saya menggunakan -Use OpenSSH, aplikasi default SSH dari Gt.
 Klik Next untuk melanjutkan.
-![img]Foto/foto7.png
+![Gambar](Foto/foto7.png)
 
 ### 9. Pilih Line Ending
 Pada tutorial ini Saya memilih -Checkout Windows-style, commit Unix-style line endings-.
 Klik Next untuk lanjut.
-![img]Foto/foto8.png
+![Gambar](Foto/foto8.png)
 
 ### 10. Pilih Emulator Terminal
 Anda bisa menggunakan Command Prompt atau MinTTY, karena ingin menggunakan Command Prompt,
 Pada tutorial ini saya memilih -Use Windows' default console windows. Klik Next untuk
 melanjutkan instalasi.
-![img]Foto/foto9.png
+![Gambar](Foto/foto9.png)
 
 ### 11. Tentukan Opsi Ekstra
 Pertama, pilih -Enable File System Caching- agar Git memiliki fungsi system caching.
 Kedua, pilih -Enable Git Credential Manager- agar Git bisa dikombinasikan 
 dengan aplikasi lain seperti Visual Studio, dan Github. Klik Next untuk Lanjut.
-![img]Foto/foto10.png
+![Gambar](Foto/foto10.png)
 
 ### 12. Mulai Proses Instalasi
 Setelah menambahkan konfigurasi pada Git, Anda bisa memulai proses instalasi. 
 Klik Install untuk melanjutkan proses
-![img]Foto/foto11.png
+![Gambar](Foto/foto11.png)
 
 Berikut adalah tampilan instalasi Git.
 Tunggu hingga proses instalasi selesai.
-![img]Foto/foto12.png
+![Gambar](Foto/foto12.png)
 
 ### Selesai
 
@@ -102,13 +102,13 @@ GitHub dan Git memiliki hubungan khusus, yaitu Git sebagai version control syste
 dan Github menjadi hosting atau menyimpan kode program.
 
 Setelah anda login akan muncul dashboard dari GitHub seperti ini :
-![img]Foto/foto13.png
+![Gambar](Foto/foto13.png)
 
 ### 3. Buat Repository
 Setelah berhasil login ke GitHub, Klik tombol New pada menu Repositories
 untuk membuat repository baru.
-![img]Foto/foto14.png
-![img]Foto/foto15.png
+![Gambar](Foto/foto14.png)
+![Gambar](Foto/foto15.png)
 
 Kemudian anda diarahkan ke halaman untuk membuat repository.
 Anda Perlu mengisi detail informasi berikut.
@@ -122,10 +122,10 @@ Anda Perlu mengisi detail informasi berikut.
  ### 4. Buka Folder Pada Windows
  Selanjutnya, Anda perlu membuat folder pada local disk komputer anda. 
  Untuk menyimpan update file repository GitHub yang dibuat.
- ![img]Foto/foto16.png
+ ![Gambar](Foto/foto16.png)
 
 ### 5. Buka Folder Menggunakan Git Bash
-![img]Foto/foto17.png
+![Gambar](Foto/foto17.png)
 
 Setelah berhasil membuat folder pada local disk komputer Anda, buka folder tersebut
 dengan cara klik kanan  lalu pilih Git Bash Here.
@@ -134,7 +134,7 @@ dengan cara klik kanan  lalu pilih Git Bash Here.
 Setelah itu, ubah folder tersebut menjadi repository menggunakan perintah berikut :
 
 $ git init
-![img]Foto/foto18.png
+![Gambar](Foto/foto18.png)
 
 ### 7. Tambahkan File Ke Repository 
 Untuk bisa menambahkan file ke repository GitHub, Anda perlu menerapkan 
@@ -158,7 +158,7 @@ $ git commit -m "first commit"
 
 Pada tutorial ini kami membuat first commit sebagai commit pertama kami. Anda bebas
 membuat nama commit apa saja.
-![img]Foto/foto19.png
+![Gambar](Foto/foto19.png)
 
 ### 9. Remote Repository GitHub
 Remot repository berfungsi untuk mengupload file yang telah anda buat sebelumnya 
@@ -167,7 +167,7 @@ di local disk. Masukan perintah berikut ini untuk melakukan remote repository.
 $ git remote add origin git@github.com:UsernameGit/NamaRepository.git
 
 Perintah diatas tidak akan menghasilkan output apapun.
-![img]Foto/foto20.png
+![Gambar](Foto/foto20.png)
 
 ### 10. Push Ke GitHub
 Langkah terakhir adalah push ke GitHub berfungsi untuk mengupload hasil akhir dari langkah-langkah 
@@ -177,16 +177,16 @@ $ git push -u origin main
 
 perintah diatas tidak akan menampilkan pop up sign GitHub. Anda perlu login untuk 
 melanjutkan proses push ke GitHub.
-![img]Foto/foto21.png
+![Gambar](Foto/foto21.png)
 
 Jika proses login berhasil, akan muncul tampilan
 comman prompt seperti dibawah ini:
-![img]Foto/foto22.png
+![Gambar](Foto/foto22.png)
 
 ### 11. Cek File 
 Setelah itu, cek repository yang telah anda buat.
 anda akan mendapatkan file file yang telah anda tambahkan sebelumnya.
-![img]Foto/foto23.png
+![Gambar](Foto/foto23.png)
 
 ## KESIMPULAN
  Cara menggunakan Git ini wajib diketahui dan dikuasai oleh semua

@@ -9,7 +9,7 @@ Download sesuai tipe sistem operasi pada komputer Anda.
 Setelah mengunduh file Git, buka setup aplikasi Git untuk memulai proses instalasi.
 Halaman awal setelah anda membuka setup aplikasi Git adalah tampilan Document License 
 dari Git. Klik Next untuk melanjutkan instalasi.
-![img]Foto/foto1.png
+![Gambar](Foto/foto1.png)
 
 ### 3. Tentukan Lokasi Instalasi Git
 Selanjutnya, pilih lokasi untuk install Git Pada komputer Anda. Pada tutorial ini Saya
